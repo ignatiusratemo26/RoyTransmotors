@@ -49,7 +49,7 @@ while ($row = sqlsrv_fetch_array($stmt, SQLSRV_FETCH_ASSOC)) {
             <td>{$row['DateScheduled']->format('Y-m-d')}</td>
             <td>" . ($row['DateCompleted'] ? $row['DateCompleted']->format('Y-m-d') : 'Pending') . "</td>
             <td>{$row['CustomerName']}</td>
-            <td>" . ($row['PaymentAmount'] ? '$' . number_format($row['PaymentAmount'], 2) : 'N/A') . "</td>
+            <td>" . ($row['PaymentAmount'] ? 'Ksh' . number_format($row['PaymentAmount'], 2) : 'N/A') . "</td>
             <td>" . ($row['PaymentDate'] ? $row['PaymentDate']->format('Y-m-d') : 'N/A') . "</td>
         </tr>";
 }

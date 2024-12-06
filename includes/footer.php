@@ -15,7 +15,7 @@
     </style>
 
     <footer>
-        <p>&copy; 2024 RoyTransmotors. All Rights Reserved.</p>
+        <p>&copy; 2024 Intersoft Technologies. All Rights Reserved.</p>
     </footer>
 </body>
 </html>

@@ -23,6 +23,20 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 $sql = "SELECT * FROM Customer";
 $stmt = sqlsrv_query($conn, $sql);
+?>
+
+<h3>Add Customer</h3>
+<form method="POST">
+    <input type="text" name="CustomerName" placeholder="Customer Name" required>
+    <select name="Category" required>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+    </select>
+    <button type="submit" name="action" value="add">Add Customer</button>
+</form>
+
+<?php
 
 echo "<h2>Customers</h2>";
 echo "<table border='1'>
@@ -50,15 +64,6 @@ echo "</table>";
 sqlsrv_free_stmt($stmt);
 ?>
 
-<h3>Add Customer</h3>
-<form method="POST">
-    <input type="text" name="CustomerName" placeholder="Customer Name" required>
-    <select name="Category" required>
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-    </select>
-    <button type="submit" name="action" value="add">Add Customer</button>
-</form>
+
 
 <?php include '../includes/footer.php'; ?>

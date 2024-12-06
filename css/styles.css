@@ -68,6 +68,24 @@ main {
     padding: 20px;
 }
 
+/* Input */
+input[type="text"], input[type="email"], input[type="password"], select ,input[type="number"], input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
 /* Footer */
 footer {
     background-color: #333;

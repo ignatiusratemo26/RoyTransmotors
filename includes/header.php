@@ -9,7 +9,7 @@ if (session_status() == PHP_SESSION_NONE) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RoyTransmotors</title>
-    <link rel="stylesheet" href="../css/styles.css"> <!-- Link to your custom styles -->
+    <link rel="stylesheet" href="../css/styles.css">
 
 </head>
 <body>

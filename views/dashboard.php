@@ -15,6 +15,7 @@ include '../includes/header.php';
     <a href="trailers.php">Manage Trailers</a>
     <a href="containers.php">Manage Containers</a>
     <a href="transport_units.php">Manage Transport Units</a>
+    <a href="loads.php">Manage Loads</a>
     <a href="reports.php">View Reports</a>
 </div>
 
